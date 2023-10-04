@@ -18,7 +18,7 @@ build_docker_image_build()
 
    check_api_returned_http_code build_docker_image
    ECS_WORK_TYPE=build
-   ECS_API_ENDPOINT=builds
+   ECS_API_ENDPOINT=builds #add
    ecs_work_status_check
 
    BUILD_IMAGE=""
